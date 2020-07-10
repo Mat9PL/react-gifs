@@ -38,6 +38,7 @@ class App extends Component {
 
   render() {
     return (
+      console.log(flats)
       <div>
         <div className="left-scene">
           <SearchBar searchFunction={this.search} />
